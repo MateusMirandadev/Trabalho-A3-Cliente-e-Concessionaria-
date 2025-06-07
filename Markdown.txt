@@ -1,0 +1,28 @@
+### Sistema de Gerenciamento de Clientes – Concessionária
+
+Trabalho final da disciplina Programação de Soluções Computacionais, orientado pelo professor Alexandre de Oliveira (Montanha).  
+Este projeto implementa um CRUD completo em Java utilizando apenas console, com validações, persistência em arquivo '.txt' e modelagem orientada a objetos.
+
+### Entidade: Cliente
+
+O sistema foi construído com base na entidade 'Cliente', de uma concessionária de veículos.
+
+### Atributos
+
+- Nome do Cliente ('String')
+- Idade ('int')
+- CPF ('String')
+- Número de Registro ('int')
+- Modelo do Carro ('String')
+- Cor do Carro ('String')
+
+### Validações implementadas:
+- Nome não pode ser vazio
+- Idade mínima de 18 anos
+- CPF deve conter exatamente 11 dígitos numéricos
+
+### Estrutura do Projeto
+
+- Cliente.java: Classe principal da entidade com validações e métodos auxiliares.
+- GerenciadorCliente.java: Classe responsável pela lógica de CRUD e persistência em arquivo .txt.
+- Main.java: Menu interativo em console, permite operações CRUD pelo usuário.
